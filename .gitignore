@@ -1,0 +1,9 @@
+node_modules
+.next
+out
+.tools
+.qa
+*.qoder.site
+next-env.d.ts
+*.tsbuildinfo
+.DS_Store
