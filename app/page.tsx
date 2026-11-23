@@ -18,5 +18,15 @@ const Experience = dynamic(() => import("@/components/Experience"), {
 });
 
 export default function Page() {
-  return <Experience />;
+  return (
+    <>
+      <h1 className="sr-only">Arden Vale Portfolio</h1>
+      <p className="sr-only">
+        Arden Vale is a computational neuroscientist and human–AI interaction
+        designer. Explore research, projects, skills, achievements, leadership,
+        and a full curriculum vitae.
+      </p>
+      <Experience />
+    </>
+  );
 }
