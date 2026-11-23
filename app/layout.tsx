@@ -38,6 +38,9 @@ export const metadata: Metadata = {
   applicationName: "Arden Vale Portfolio",
   alternates: { canonical: "/" },
   robots: { index: true, follow: true },
+  verification: {
+    google: "nj-_tCVX-VHFQDPUmKRk5uCZFnv0m5wDtBgJx7z8law",
+  },
   openGraph: {
     title: "Arden Vale Portfolio — The Academic Dimension",
     description,
